@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-bottom: 4rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(113, 22, 216),
+    rgb(90, 76, 168)
+  );
+}
+
+.navbar-container {
+  padding: 2rem 3rem;
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  margin-left: 20rem;
+  gap: 4rem;
+  color: #fff;
+  list-style: none;
+}
+
+.nav-item-active {
+  color: aqua;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.free-trail {
+  padding: 0.75rem 2rem;
+  margin-top: -2rem;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.header-content {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  color: #fff;
+}
+
+.heading {
+  font-size: 4rem;
+  width: 500px;
+}
+
+.header-description {
+  font-size: 1rem;
+  margin-top: 2rem;
+  width: 450px;
+}
+
+.header-image {
+  width: 40%;
+  margin-left: 40rem;
+  margin-top: -25rem;
+}
+
+.content-leftside {
+  width: 40%;
+}
+
+.content {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.rightside-heading {
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.content-heading h1 {
+  margin-top: -2rem;
+  margin-left: 3rem;
+}
+
+.content-description p {
+  margin-left: 3rem;
+  width: 400px;
+}
+
+.content-rightside img {
+  width: 20px;
+}
+
+.content-one {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content-two {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content-three {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.card-container-heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.class-container-flex {
+  margin-top: 4rem;
+  display: flex;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.class-conntainer-flex-one,
+.class-conntainer-flex-two,
+.class-conntainer-flex-three,
+.class-conntainer-flex-four {
+  box-shadow: 4px 4px 4px #888888;
+}
+
+.class-container-flex img {
+  width: 40px;
+  padding-top: 4rem;
+}
+
+.class-container-flex h1 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.class-container-flex p {
+  margin-top: 1rem;
+  font-size: 0.5rem;
+  width: 100px;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.class-container-flex-description.one {
+  padding-top: 0.5rem;
+  background-color: blue;
+  color: #fff;
+}
