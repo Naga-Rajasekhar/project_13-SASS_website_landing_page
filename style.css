@@ -158,3 +158,123 @@ header {
   background-color: blue;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-container {
+    padding: 0;
+  }
+
+  .navbar-container {
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(113, 22, 216),
+      rgb(90, 76, 168)
+    );
+  }
+
+  .navbar-primary {
+    margin-left: 2rem;
+    margin-top: 4.5rem;
+  }
+
+  .free-trail {
+    position: absolute;
+    top: 4rem;
+  }
+
+  .header-content {
+    padding-bottom: 36rem;
+  }
+
+  .heading {
+    margin-left: -4rem;
+    text-align: center;
+  }
+
+  .header-description {
+    text-align: center;
+    margin-left: -2rem;
+  }
+
+  .header-logo-image {
+    position: absolute;
+    top: 25rem;
+    left: 5rem;
+    width: 350px;
+  }
+
+  .nav-items li:nth-child(1) {
+    display: none;
+  }
+  .nav-items li:nth-child(2) {
+    display: none;
+  }
+  .nav-items li:nth-child(3) {
+    display: none;
+  }
+  .nav-items li:nth-child(4) {
+    display: none;
+  }
+  .nav-items li:nth-child(5) {
+    display: none;
+  }
+
+  .free-trail {
+    margin-left: -10rem;
+    margin-top: 0.4rem;
+  }
+
+  .heading {
+    margin-top: -2rem;
+    font-size: 2rem;
+  }
+
+  .content {
+    margin-top: 5rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-leftside {
+    margin-left: -1rem;
+  }
+
+  .content-leftside-image {
+    width: 400px;
+  }
+
+  .content-rightside {
+    margin-top: -5rem;
+  }
+
+  .rightside-heading {
+    width: 25rem;
+    text-align: center;
+    margin-left: -2rem;
+  }
+
+  .content-heading {
+    font-size: 0.75rem;
+  }
+
+  .content-description p {
+    margin-top: 1rem;
+    width: 16rem;
+  }
+
+  .card-container-heading {
+    font-size: 1.5rem;
+  }
+
+  .class-container-flex {
+    margin-left: 10rem;
+    display: grid;
+    gap: 2rem;
+  }
+}

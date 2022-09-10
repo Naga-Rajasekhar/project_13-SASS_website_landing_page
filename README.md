@@ -4,11 +4,13 @@
 >
 > By Naga Rajasekhar
 
-You can find the live deployment link of this web page here --> **[Live Deployment Link](https://sassconsultancyfirm.netlify.app/)**
+You can find the live deployment link of this web page below
+
+# [Live Deployment Link](https://sassconsultancyfirm.netlify.app/)
+
 <br/>
 <br/>
-<br/>
-<br/>
+
 ![Preview](./preview_13.png)
 
 <br/>
@@ -19,3 +21,9 @@ You can find the live deployment link of this web page here --> **[Live Deployme
 2. Learnt about SVG's
 3. Gained knowledge about background and its properties
 4. Gained knowledge about padding, margin, colors, border and their values
+
+<br>
+
+<hr>
+
+# It took around 8 hours to design this web page
